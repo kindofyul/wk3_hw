@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* navigation */
+.language{
+    height: 40px;
+    background-color: #09499d;
+    line-height: 40px;
+    margin-bottom: 0px;
+    padding:0;
+}
+
+.nav-login{
+    width: 300px;
+    float: right;
+}
+
+.dropbox{
+    float: left;
+}
+
+.dropbox select{
+    color: white;
+    background-color: #0b2043;
+    border-style: none;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 6px;
+}
+
+.nav-setting{
+    list-style-type: none;
+    margin-top: 5px;
+
+}
+
+ul.nav-setting > li{
+    float: left;
+    margin-left: 25px;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.darkblue{
+    background-color: #01011f;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.blue{
+    background-color: #3660b3;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav{
+    height: 80px;
+    background-color:#0b2043;
+    line-height: 80px;
+    margin:0px;
+    padding: 0px;
+}
+
+nav::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.learnus-logo{
+    font-size: 30px;
+    float:left;
+    margin: 0;
+    padding: 0;
+}
+
+.bar-setting{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* header */
+.hd{
+    position: relative;
+    height: 600px;
+}
+
+.hd::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+}
+
+/* section */
+.sec{
+    height: 500px;
+    background-color: white;
+}
+
+.search{
+height: 80px;
+background-color: #edc825;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 5px;
+}
+
+.search .searchterm{
+    color: #878787;
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    width: 600px;
+    margin: 18px;
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+ul.searchbutton > li{
+    float: left;
+    margin-right: 25px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.searchbutton{
+    list-style-type: none;
+    float: right;
+    margin-top: 15px;
+}
+
+.searchbutton .black{
+    background-color: #2b2b2b;
+    line-height: 30px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.searchbutton .line{
+    border: 1px solid #2b2b2b;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right:20px;
+}
+
+h3{
+    padding-left: 10px;
+}
+
+
+.artc{
+    float: left;
+    width: 220px;
+    height: 310px;
+    margin: 10px;
+    text-align: left;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+
+.artc :last-child{
+    margin-right: 0;
+}
+
+.sec article img{
+    width: 100%;
+    height: auto;
+}
+
+.course-type{
+    color: #a8a8a8;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.course-title{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.course-date{
+    background-color: #f5f5f5;
+    padding-left: 5px;
+    padding-top:3px;
+    height: 58px;
+    
+}
+
+.start{
+    font-weight:bold;
+    font-size:13px;
+    margin-bottom: 0px;
+}
+
+.date{
+    margin-top:3px;
+    font-size: 11px;
+    color:#878787;
+}
+
+/* footer */
+.ft{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
